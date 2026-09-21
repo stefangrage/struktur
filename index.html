@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="container grid">
+        <div class="container grid m-t-xxxl">
             <div class="col-12 col-md-6 col-lg-4 content-center text-center">
                 <div class="flex flex-row justify-center p-b-md">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" width="32" height="32">
@@ -161,6 +161,39 @@
         </section>
     <!-- Grid eksempler slut-->
 
+    <!-- Farver eksempler -->
+        <div class="container grid p-b-zero m-t-xxxl">
+            <div class="col-12">
+                <h2>Farver eksempler</h2>
+                <p>Farverne defineres i CSS variable</p>
+            </div>
+             <div class="col-12 col-md-4">
+                <p>Primærfarven:</p>
+                <div class="bg-primary p-md text-bright text-center">.bg-primary</div>
+            </div>
+             <div class="col-12 col-md-4">
+                <p>Primærfarven, lys:</p>
+                <div class="bg-primary-light p-md text-bright text-center">.bg-primary-light</div>
+            </div>
+             <div class="col-12 col-md-4">
+                <p>Primærfarven, mørk:</p>
+                <div class="bg-primary-dark p-md text-bright text-center">.bg-primary-dark</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <p>Sekundærfarven:</p>
+                <div class="bg-secondary p-md text-bright text-center">.bg-secondary</div>
+            </div>
+             <div class="col-12 col-md-4">
+                <p>Sekundærfarven, lys:</p>
+                <div class="bg-secondary-light p-md text-bright text-center">.bg-secondary-light</div>
+            </div>
+             <div class="col-12 col-md-4">
+                <p>Sekundærfarven, mørk:</p>
+                <div class="bg-secondary-dark p-md text-bright text-center">.bg-secondary-dark</div>
+            </div>
+        </div>
+    <!-- Farver eksempler slut-->
+
     <!-- Tekst eksempler -->
         <div class="container grid p-b-zero m-t-xxxl">
             <div class="col-12">
@@ -180,6 +213,7 @@
                 <p class="text-light">Teksten kan også gøres tyndere med text-light.</p>
                 <p class="text-bold"> Eller tykkere med text-bold.</p>
                 <p class="text-sm">Eller mindre med class'en text-sm.</p>
+                <p>Og her er et eksempel på et link: <a href="#">Her er et link</a></p>
             </div>
         </div>
     <!-- Tekst eksempler slut-->
@@ -208,6 +242,37 @@
             <div class="col-4 col-lg-2 border-sm rounded-full-top"><img src="/filer/struktur.jpg" class="rounded-full-top" alt="foto"><p>col-4 col-lg-2 border-sm rounded-full-top + image rounded-full-top</p></div> 
         </section>
     <!-- Foto eksempler slut-->
+
+    <!-- Form eksempler -->
+        <div class="container grid p-b-zero m-t-xxxl">
+            <div class="col-12">
+                <h2>Form eksempel</h2>
+            </div>
+        </div>
+
+        <section class="container grid">
+            <div class="col-12 col-md-6 col-lg-6 content-center">
+                <form action="#" method="post" class="form">
+                    <div class="m-b-lg">
+                        <label for="name">Navn:</label>
+                        <input type="text" id="name" name="name" placeholder="Indtast dit navn" required>
+                    </div>
+                    <div class="m-b-lg">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Indtast din email" required>
+                    </div>
+                    <div class="m-b-lg">
+                        <label for="message">Besked:</label>
+                        <textarea id="message" name="message" placeholder="Skriv din besked her..." required></textarea>
+                    </div>
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-primary btn-full">Send</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    <!-- Form eksempler slut -->
     
 
     </main>

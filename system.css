@@ -118,6 +118,43 @@ button, input, textarea, select {
 }
 
 /* Surface Tokens / classes*/
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.text-primary {
+    color: var(--color-primary);
+}
+.bg-primary-light {
+    background-color: var(--color-primary-light);
+}
+.text-primary-light {
+    color: var(--color-primary-light);
+}
+.bg-primary-dark {
+    background-color: var(--color-primary-dark);
+}
+.text-primary-dark {
+    color: var(--color-primary-dark);
+}
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+.text-secondary {
+    color: var(--color-secondary);
+}
+.bg-secondary-light {
+    background-color: var(--color-secondary-light);
+}
+.text-secondary-light {
+    color: var(--color-secondary-light);
+}
+.bg-secondary-dark {
+    background-color: var(--color-secondary-dark);
+}
+.text-secondary-dark {
+    color: var(--color-secondary-dark);
+}
+
 .bg-dark {
     background-color: var(--color-dark);
 }
@@ -647,6 +684,11 @@ button:hover, .btn:hover {
 .btn-lg {
   padding: var(--space-md) var(--space-lg);
   font-size: var(--font-size-lg);
+}
+.btn-full{
+  padding: var(--space-md) var(--space-lg);
+  font-size: var(--font-size-lg);
+  width: 100%;
 }
 
 
