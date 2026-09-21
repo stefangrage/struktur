@@ -10,7 +10,8 @@ System styles
 8: Medier
 9: Hjælpere
 10: Komponenter
-11: Custom CSS
+11: Animationer
+12: Custom CSS
 */
 
 /* ========== 1: Reset ========== */
@@ -832,7 +833,13 @@ img {
 
 /*Navbar*/
 /* Navbar styling */
-
+.navbarfixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-bright);
+}
 .mobile-menu{
   position: fixed;
   top: 0;
@@ -880,7 +887,11 @@ img {
   color: var(--color-secondary-dark);
 }
 
+/* ========== 11: Animationer ========== */
+/* Glat scrolling for anker-links */
+html {
+    scroll-behavior: smooth;
+}
 
-
-/* ========== 11: Custom CSS ========== */
+/* ========== 12: Custom CSS ========== */
 /* Tilføj dine egne brugerdefinerede stilarter her - eller tilføj dem i en separat fil */

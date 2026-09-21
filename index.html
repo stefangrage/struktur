@@ -6,15 +6,18 @@
     <link rel="stylesheet" href="system.css">
     <title>Struktur starter</title>
 </head>
-<body>
+<body id="top">
     <!-- Header -->
-    <header class="">
+    <header class="navbarfixed">
         <div class="container flex flex-row justify-between items-center p-md">
-            <div class="logo"><a href="/" class="text-decoration-none text-xl">Struktur</a></div>
+            <div class="logo"><a href="#top" class="text-decoration-none text-xl">Struktur</a></div>
             <nav class="hidden visible-md">
-                <a href="#" class="p-r-sm">Navigation 1</a>
-                <a href="#" class="p-r-sm">Navigation 2</a>
-                <a href="#">Navigation 3</a>
+                <a href="#container" class="p-r-sm">Container</a>
+                <a href="#grid" class="p-r-sm">Grid</a>
+                <a href="#farver" class="p-r-sm">Farver</a>
+                 <a href="#tekst" class="p-r-sm">Tekst</a>
+                <a href="#fotos" class="p-r-sm">Fotos</a>
+                <a href="#forms" class="p-r-sm">Forms</a>
             </nav>
             <div class="navicon hidden-md">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" height="32" width="32">
@@ -22,9 +25,13 @@
                 </svg>
             </div>
             <nav class="mobile-menu hidden flex-col justify-center items-center hidden-md">
-                <a href="#" class="p-r-sm">Navigation 1</a>
-                <a href="#" class="p-r-sm">Navigation 2</a>
-                <a href="#">Navigation 3</a>
+                <a href="#top" class="p-r-sm">Top</a>
+                <a href="#container" class="p-r-sm">Container</a>
+                <a href="#grid" class="p-r-sm">Grid</a>
+                <a href="#farver" class="p-r-sm">Farver</a>
+                 <a href="#tekst" class="p-r-sm">Tekst</a>
+                <a href="#fotos" class="p-r-sm">Fotos</a>
+                <a href="#forms" class="p-r-sm">Forms</a>
             </nav>
         </div>
     </header>
@@ -33,7 +40,7 @@
     <!-- Main content -->
     <main>
 
-        <div class="container-full bg-dark text-bright p-zero">
+        <div class="container-full bg-dark text-bright p-zero p-t-xxxl">
             <div class="container grid">
                 <div class="col-12 col-md-6 col-lg-8">
                     <img src="filer/struktur.jpg" alt="struktur hero foto"  >
@@ -80,7 +87,7 @@
         </div>
 
         <!-- Container eksempler -->
-        <div class="container grid p-b-zero m-t-xxl">
+        <div class="container grid p-b-zero m-t-xxl" id="container">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Container eksempler</h2>
             </div>
@@ -113,7 +120,7 @@
         <!-- Container eksempler slut-->
 
         <!-- Grid eksempler -->
-        <div class="container grid p-b-zero m-t-xxxl">
+        <div class="container grid p-b-zero m-t-xxxl" id="grid">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Grid eksempler</h2>
             </div>
@@ -199,7 +206,7 @@
     <!-- Grid eksempler slut-->
 
     <!-- Farver eksempler -->
-        <div class="container grid p-b-zero m-t-xxxl">
+        <div class="container grid p-b-zero m-t-xxxl" id="farver">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Farver eksempler</h2>
                 <p>Farverne defineres i CSS variable</p>
@@ -232,7 +239,7 @@
     <!-- Farver eksempler slut-->
 
     <!-- Tekst eksempler -->
-        <div class="container grid p-b-zero m-t-xxxl">
+        <div class="container grid p-b-zero m-t-xxxl" id="tekst">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Tekst eksempler</h2>
             </div>
@@ -256,7 +263,7 @@
     <!-- Tekst eksempler slut-->
 
     <!-- Foto eksempler -->
-        <div class="container grid p-b-zero m-t-xxxl">
+        <div class="container grid p-b-zero m-t-xxxl" id="fotos">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Foto eksempler</h2>
             </div>
@@ -281,7 +288,7 @@
     <!-- Foto eksempler slut-->
 
     <!-- Form eksempler -->
-        <div class="container grid p-b-zero m-t-xxxl">
+        <div class="container grid p-b-zero m-t-xxxl" id="forms">
             <div class="col-12">
                 <h2 class="text-xl text-primary-dark">Form eksempel</h2>
             </div>
