@@ -237,7 +237,6 @@ button, input, textarea, select {
     width: var(--container-fluid);
     max-width: var(--container-narrow);
     margin: 0 auto;
-    background-color: var(--color-secondary-dark);
 }
 
 .container-full {
@@ -307,8 +306,8 @@ button, input, textarea, select {
     .col-md-12 { grid-column: auto / span 12; }
 }
 
-/* Extra store skærme (lg: ≥1200px) */
-@media (min-width: 1200px) {
+/* Extra store skærme (lg: ≥1280px) */
+@media (min-width: 1280px) {
     .col-lg-1 { grid-column: auto / span 1; }
     .col-lg-2 { grid-column: auto / span 2; }
     .col-lg-3 { grid-column: auto / span 3; }
