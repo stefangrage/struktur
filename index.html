@@ -99,26 +99,26 @@
             </div>
         </div>
 
-        <section class="container gap-xs md:gap-md border-md">
+        <section class="container gap-xs md:gap-md bg-secondary-light">
             <div class="grid">
                 <div class="col-12 col-md-6">
                     <p>Det hele starter med en container: Et html-element, f.eks. en div eller en section, med class container.</p>
                     <p>Containeren pakker sitets indhold ind i forskellige bredder, afhængigt af skærmstørrelsen, og inde i containeren kan du tilføje grid eller flex layouts.</p>
                 </div>
                 <div class="col-12 col-md-6">     
-                    <p>Den sorte kassee rundt om viser at indholdet i denne .container har en max-width på 1280px, og indtil de 1280px fylder .container hele skærmen, og er centreret/har lige margener</p>
+                    <p>Den orange kassee rundt om viser at indholdet i denne .container har en max-width på 1280px, og indtil de 1280px fylder .container hele skærmen, på når og er centreret/har lige margener</p>
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid m-t-xxxl p-t-xxl p-b-xxl bg-primary-light text-bright">
+        <section class="container-full m-t-xxxl p-t-xxl p-b-xxl bg-primary-light text-bright">
             <div class="container border-md">
                 <div class="grid">
                     <div class="col-12 col-md-6 ">
-                        <p>En container-fluid fylder hele skærmen, uanset skærmstørrelsen. Den kan bruges til at skabe fuldskærmsbaggrunde eller sektioner, der strækker sig over hele bredden af skærmen.</p>
+                        <p>En container-full fylder hele skærmen, uanset skærmstørrelsen. Den kan bruges til at skabe fuldskærmsbaggrunde eller sektioner, der strækker sig over hele bredden af skærmen.</p>
                     </div>
                     <div class="col-12 col-md-6">     
-                        <p>Inde i en container-fluid kan du placere andre elementer, som f.eks. en ny container til at pakke indholdet ind i en max-bredde på 1280px. Her ses en sådan container, afgrænset af den hvide kasse.</p>
+                        <p>Inde i en container-full kan du placere andre elementer, som f.eks. en ny container til at pakke indholdet ind i en max-bredde på 1280px. Her ses en sådan container, afgrænset af den hvide kasse.</p>
                     </div>
                 </div>
             </div>
@@ -138,28 +138,24 @@
         </div>
 
         <section class="container ">
-            <div class="gap-xs md:gap-md">
-                <div class="grid">
-                    <div class="col-12">
-                        <p>En container kan deles op i 12 kolonner ved hjælp af .grid classen. Grid bestående af 12 kolonner med gap-md:</p>
-                    </div>
+            <div class="grid">
+                <div class="col-12">
+                    <p>En container kan deles op i 12 kolonner ved hjælp af .grid classen. Grid bestående af 12 kolonner med gap-md:</p>
                 </div>
             </div>
-            <div class="gap-xs md:gap-md">
-                <div class="grid">
-                    <div class="col-1 border-sm content-center text-center">1</div> 
-                    <div class="col-1 border-sm content-center text-center">2</div> 
-                    <div class="col-1 border-sm content-center text-center">3</div> 
-                    <div class="col-1 border-sm content-center text-center">4</div> 
-                    <div class="col-1 border-sm content-center text-center">5</div> 
-                    <div class="col-1 border-sm content-center text-center">6</div> 
-                    <div class="col-1 border-sm content-center text-center">7</div> 
-                    <div class="col-1 border-sm content-center text-center">8</div> 
-                    <div class="col-1 border-sm content-center text-center">9</div> 
-                    <div class="col-1 border-sm content-center text-center">10</div> 
-                    <div class="col-1 border-sm content-center text-center">11</div> 
-                    <div class="col-1 border-sm content-center text-center">12</div> 
-                </div>
+            <div class="grid gap-xs md:gap-md">
+                <div class="col-1 border-sm content-center text-center">1</div> 
+                <div class="col-1 border-sm content-center text-center">2</div> 
+                <div class="col-1 border-sm content-center text-center">3</div> 
+                <div class="col-1 border-sm content-center text-center">4</div> 
+                <div class="col-1 border-sm content-center text-center">5</div> 
+                <div class="col-1 border-sm content-center text-center">6</div> 
+                <div class="col-1 border-sm content-center text-center">7</div> 
+                <div class="col-1 border-sm content-center text-center">8</div> 
+                <div class="col-1 border-sm content-center text-center">9</div> 
+                <div class="col-1 border-sm content-center text-center">10</div> 
+                <div class="col-1 border-sm content-center text-center">11</div> 
+                <div class="col-1 border-sm content-center text-center">12</div> 
             </div>
         </section>
 
@@ -169,7 +165,7 @@
                     <p>Grid bestående af 12 kolonner med gap-md:</p>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid gap-xs sm:gap-md">
                 <div class="col-1 border-sm content-center text-center">col-1</div> 
                 <div class="col-2 border-sm content-center text-center">col-2</div> 
                 <div class="col-3 border-sm content-center text-center">col-3</div> 
@@ -185,7 +181,7 @@
             </div>
         </section>
 
-        <section class="container gap-xs md:gap-md">
+        <section class="container gap-xs sm:gap-md">
             <div class="grid">
                 <div class="col-12">
                     <p>Simpelt responsivt grid med to breakpoints og gap-xs md:gap-md:</p>
@@ -199,10 +195,10 @@
             </div>
         </section>
 
-        <section class="container gap-xs md:gap-md">
+        <section class="container gap-xs sm:gap-md">
             <div class="grid">
                 <div class="col-12">
-                    <p>Responsive cols med forskellige bredder og gap-xs md:gap-md:</p>
+                    <p>Responsive cols med forskellige bredder og gap-xs sm:gap-md:</p>
                 </div>
             </div>
             <div class="grid">

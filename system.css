@@ -245,7 +245,7 @@ button, input, textarea, select {
     margin: 0 auto;
 }
 
-.container, .container-narrow, .container-full {
+.container, .container-narrow, .container-fluid {
     padding: var(--space-xxl) var(--space-md);
 }
 
@@ -258,13 +258,13 @@ button, input, textarea, select {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: var(--space-sm); 
-    margin-left: 0 calc(var(--space-sm) / 2);
+    margin: 0 calc(var(--space-sm) / 2);
     grid-auto-rows: minmax(var(--space-xl), auto);
 }
 @media (min-width: 400px) {
     .grid {
-        gap: var(--space-xl); 
-        margin: 0 calc(var(--space-xl) / 2);
+        gap: var(--space-md); 
+        margin: 0 calc(var(--space-md) / 2);
     }
 }
 
@@ -396,7 +396,7 @@ button, input, textarea, select {
 .nested-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: var(--space-xl); /* 2 * 8px */
+    gap: var(--space-md); /* 2 * 8px */
     margin-top: var(--space-xl); /* 2 * 8px */
 }
 
