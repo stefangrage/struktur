@@ -258,11 +258,13 @@ button, input, textarea, select {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: var(--space-sm); 
+    margin-left: 0 calc(var(--space-sm) / 2);
     grid-auto-rows: minmax(var(--space-xl), auto);
 }
 @media (min-width: 400px) {
     .grid {
         gap: var(--space-xl); 
+        margin: 0 calc(var(--space-xl) / 2);
     }
 }
 
