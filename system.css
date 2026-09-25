@@ -406,13 +406,14 @@ button, input, textarea, select {
     border: 1px solid #ccc;
 }
 
-/* Lodret justering af indhold */
-    .content-start { align-content: flex-start; }
+/* Lodret justering af indhold i grids*/
+    .content-start { align-content: start; }
     .content-center { align-content: center; }
-    .content-end { align-content: flex-end; }
+    .content-end { align-content: end; }
     .content-between { align-content: space-between; }
     .content-around { align-content: space-around; }
     .content-stretch { align-content: stretch; }
+    .content-evenly { align-content: space-evenly; }
 
 /* Flexbox classes */
 
