@@ -406,7 +406,14 @@ button, input, textarea, select {
     border: 1px solid #ccc;
 }
 
-/* Lodret justering af indhold i grids*/
+/*grid cheet sheet: https://grid.malven.co/ */
+/* Lodret justering af kolonne-aksen i grids*/
+    .col-content-start{align-content: start;}
+    .col-content-end{align-content: end;}
+    .col-content-center{align-content: center;}
+    .col-content-stretch{align-content: stretch;} /*default*/
+
+/*Justerer grid content i kolonne-aksen, når grid'et er mindre en containeren.*/
     .content-start { align-content: start; }
     .content-center { align-content: center; }
     .content-end { align-content: end; }
@@ -416,7 +423,7 @@ button, input, textarea, select {
     .content-evenly { align-content: space-evenly; }
 
 /* Flexbox classes */
-
+/* Cheat sheet: https://flexbox.malven.co/ */
 /* Flebox display */
 .flex          { display: flex; }
 .inline-flex   { display: inline-flex; }
